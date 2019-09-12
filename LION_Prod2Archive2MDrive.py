@@ -4,7 +4,7 @@ try:
     # Set configuration file paths
 
     config = ConfigParser.ConfigParser()
-    config.read(r"G:\SCRIPTS\LION_Archive\ini\LION_config.ini")
+    config.read(r"LION_config_sample.ini")
     log_path = config.get('PATHS', 'Log_Path')
     log = open(log_path, "a")
     StartTime = datetime.datetime.now().replace(microsecond = 0)
