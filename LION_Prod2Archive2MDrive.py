@@ -27,7 +27,7 @@ try:
     arcpy.env.workspace = sde_prod_env
     print("Environment established")
 
-    current_version = '19B'
+    current_version = '20A'
 
     # Define variable as a list of all Feature Class objects in production SDE
 
